@@ -1,6 +1,6 @@
 var counter = 0;
 var score = localStorage.getItem("counter") || 0;
-document.getElementById("scorevalue").innerHTML = Score;
+document.getElementById("scorevalue").innerHTML = score;
 
 const mcqPages = [
   "2nd.html",
